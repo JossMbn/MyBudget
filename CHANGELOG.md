@@ -4,5 +4,6 @@
 
 #### ⭐ Evolutions
 * Init project and dependencies
+* Init ai project technical stack
 
 #### ⭐ Anomalies
