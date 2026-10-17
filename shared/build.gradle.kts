@@ -37,6 +37,12 @@ kotlin {
             // Android
             implementation(libs.bundles.androidx.lifecycle.compose)
 
+            // Kotlin
+            implementation(libs.kotlin.collections.immutable)
+
+            // Navigation 3
+            implementation(libs.bundles.common.navigation)
+
             // Compose
             implementation(libs.bundles.common.compose)
 

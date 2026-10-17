@@ -10,6 +10,10 @@ android-minSdk = "24"
 android-targetSdk = "37"
 androidx-activity = "1.13.0"
 androidx-lifecycle = "2.11.0"
+androidx-navigation3 = "1.1.2"
+
+# Kotlin Utils
+kotlin-collections-immutable = "0.5.2"
 
 # Coroutines
 coroutines = "1.11.0"
@@ -28,6 +32,11 @@ coil = "3.6.3"
 # Android
 androidx-lifecycle-viewmodelCompose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycle" }
 androidx-lifecycle-runtimeCompose = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidx-lifecycle" }
+androidx-lifecycle-viewmodel-navigation3 = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-navigation3", version.ref = "androidx-lifecycle" }
+androidx-navigation3-ui = { module = "org.jetbrains.androidx.navigation3:navigation3-ui", version.ref = "androidx-navigation3" }
+
+# Kotlin
+kotlin-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlin-collections-immutable" }
 
 # Compose
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activity" }
@@ -72,6 +81,10 @@ common-compose = [
     "compose-ui",
     "compose-components-resources",
     "compose-uiToolingPreview"
+]
+common-navigation = [
+    "androidx-navigation3-ui",
+    "androidx-lifecycle-viewmodel-navigation3"
 ]
 androidx-lifecycle-compose = [
     "androidx-lifecycle-viewmodelCompose",
